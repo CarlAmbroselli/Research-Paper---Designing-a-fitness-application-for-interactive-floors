@@ -38,6 +38,11 @@ Fitness Floor (or how was the name?)
 3. Improved Design
 4. How that tested
 
+#### Instantly start game
+We had several iterations when to start a workout. Ideas like special locations like fitness mat turned out to be bad since the user did not understand them when testing with a paper prototype. In the final version we chose to start the game as soon as someone starts running on the floor to provide the simplest solution as possible. 
+
+During heuristic evaluation we identified that there must be a short message telling the user that he should start running, from that point on he understood how to start a workout and make progress.
+
 ## Conclusions (Carl)
 - What have you learned about the problem domain
 - Abstract insights about floor and feet and how to design for them
