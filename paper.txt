@@ -1,0 +1,48 @@
+
+# Research Paper
+
+## Name / Title
+- Shortest summary of project
+- conveys a picture
+- explains project
+- is memorable
+- Avoid meaningless advertising words
+- No acronyms
+- Google unique
+- Not too long
+- Avoid the need to spell (not Phlat)
+
+Fitness Floor (or how was the name?)
+
+
+## Abstract (Marvin)
+- Summary of your findings
+
+## Figure 1
+- Shows everything in one picture
+
+## Introduction (Julius)
+- Refers to contectual inquiry
+- Shortest Path between common fact and final Design
+- Leads to test case
+
+## Walkthrough (Marc)
+- shows function (without discussion)
+- is your test case
+- Not a list of all functions, instead a story
+- should start at bottom of first page
+
+## Design
+1. Initial Design
+2. Problem during {which} test
+3. Improved Design
+4. How that tested
+
+## Conclusions (Carl)
+- What have you learned about the problem domain
+- Abstract insights about floor and feet and how to design for them
+
+When designing applications for interactive floors, user studies and exploration with prototypes becomes extremely imporant since there are no general pattern and the problem domain is yet unexplored. During the process our evaluation of the user's needs changed radically. When asking users what they wanted they looked at existing solutions and tried to map them to the floor. If we had followed those we would have ended with a fitness mat and a video player since this is the known current solution for people who want to do fitness without any sport equipment. [[{trash?}Therefore we collected important aspects from users like the need of motivation and the shortage of time and mapped them to possible exersices on the floor. Finally we came to the conclusion, that games are the most interactive soltution that motivated the users by having fun when working out. The ability to challange your high score pushes your goals and shows you your progress. ]]
+Since developing an interactive protoype for a floor requires a major amount of work, paper prototyping turned out to be a powerful tool to find design flaws in your prototypes as users were able to imagine the system.
+In addition, even when users want to use an application to do fitness activity, they look for the simplest solution to solve a game. Therefore you need to design fitness games that force users to do certain activity with the desired path instead of giving them the freedom how they want to solve a certain task. 
+
