@@ -18,6 +18,10 @@ Fitness Floor (or how was the name?)
 ## Abstract (Marvin)
 - Summary of your findings
 
+We introduce a jump 'n' run game for interactive floors to maintain body fitness. Players control themselves directly by stepping, jumping or laying on the floor. 
+
+In a forrest, users jump over fallen trees or cross an ocean by holding themselves on ice floes. Repairing a bridge in shortage of time or similar complex tasks pack fitness exercises in an exciting adventure. This motivates users to do regular physical activity.
+
 ## Figure 1
 - Shows everything in one picture
 
