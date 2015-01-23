@@ -30,6 +30,12 @@ In a forrest, users jump over fallen trees or cross an ocean by holding themselv
 - Shortest Path between common fact and final Design
 - Leads to test case
 
+The modern society is changing the way we create our day to day life. More and more tasks are getting automated and are done by machines. This causes people to increase their time off from physical activities. 
+To reinsure people don’t loose their level of fitness they are signing up for fitness studios and try to force themselves to do sports more frequently.  This restrain to visit resolves in a lack of motivation. Only one third of gym members are trains once or more per week.
+But by using bodyweight exercises people are able to perform a workout as effective as in the gym without the actual additional problems a fitness studio causes like e.g. the time you need for the way or the public display of their physical abilities.
+Doing a home workout seems to be a good solution, but people oftentimes don’t know what to do and this may implicate motivational problems again.   [Fitness Floor / new name of app] solves this by offering a workout with a high level of gamification. They try to beat their old score and at the same time are executing an effective training session. 
+
+
 ## Walkthrough (Marc)
 - shows function (without discussion)
 - is your test case
