@@ -47,6 +47,14 @@ We had several iterations when to start a workout. Ideas like special locations 
 
 During heuristic evaluation we identified that there must be a short message telling the user that he should start running, from that point on he understood how to start a workout and make progress.
 
+#### Dictate Exercises
+
+In the early designs, we decided to let users choose the exercise they want to do and guide them in their performance. Possible tasks were to train you legs for n seconds or build up strength performing n short, but hard exercises. 
+
+Within tast analysis, we noticed that this violates the need for a short workout, because much time is spent in the menu on selecting workouts. In our paper prototype study two out of our 3 participants did not even know what the exercises are about or what kind of training they are. Users rather wanted to be guided and told what would be best to do.
+
+In the further process we reduced the options down to only 'warmup' or 'workout'. In the final design, we have a complete world with several workouts packed in mini games.
+
 ## Conclusions (Carl)
 - What have you learned about the problem domain
 - Abstract insights about floor and feet and how to design for them
