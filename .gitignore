@@ -1,0 +1,5 @@
+*.psd
+*.key
+*.aux
+*.fdb_latexmk
+*.out
