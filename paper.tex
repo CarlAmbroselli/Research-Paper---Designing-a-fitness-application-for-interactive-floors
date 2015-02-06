@@ -99,6 +99,10 @@
     As a result, we focus on regular activity, instead of building up muscles and offer another approach to motivate activity: a video game. Users embody the protagonist themselves, explore the world and beat their own highscores by completing the level faster. This enables users to improve on every ``\emph{training session}'' and also requires more energy and endurance. In addition, the game offers another environment for exercises than the traditional fitness studio and thus addresses other kinds of people.
 
 
+  \section{DEVICE}
+    The application runs on an $8m^2$ FTIR screen. It behaves like a multitouch screen that is capable of recognizing users via their shoe profile. We built our application on top of a framework that enables 3D elements to convey users to be part of a virtual world.
+
+
 \section{Walk-through}
 
   \subsection{Old Forest: the first territory in the game} % (fold)
@@ -165,7 +169,14 @@
 
     When Andy has run through the world, he will see the final screen. It contains the needed time and his heart rate, as well as a congratulation. The next time, he can try to beat his record. This would require him to step and repair the bridge much faster. 
 
+\clearpage
+
 \section{Design}
+
+  \subsection{Do not just copy existing solution to floor apps} % (fold)
+  \label{sub:do_not_just_copy_existing_solution_to_floor_apps}
+  
+    We wanted to provide a fitness application in order to perform common fitness exercises. Even in the contextual inquiry we got to know that a floor does not provide the necessary instruments to perform a rich and diverse workout. It lacks a possibility to train the shoulders for example. We tried to reduce the app to only a few possible training exercises, like push-ups, stepping and sit-ups. This would not improve the training behavior at all. We then created training exercises out of things one can do on a floor.
 
   \subsection{Use the complete screen space during workout} % (fold)
   \label{sub:use_the_complete_screen_space_during_workout}
@@ -198,6 +209,8 @@
   \label{sub:use_a_fixed_map}
 
     One of the last design decisions we faced was whether to generate a unique map each run or use the same map every time. To vary the user's challenge varies from time to time, generating a map was the obvious approach. The problem was that the comparability of the times for a workout was not given anymore. But as we proofed the concept of motivation by time pressure earlier, we finally decided to use a fixed map, so that a user could compete with another user or himself.
+
+\clearpage
 
 \section{Conclusion}
 
