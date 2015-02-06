@@ -130,8 +130,8 @@
   \begin{figure}[htb]
     \centering
     \includegraphics[width=0.32\linewidth]{Image_6.jpg}
-    \includegraphics[width=0.32\linewidth]{Image_6.jpg}
-    \includegraphics[width=0.32\linewidth]{Image_6.jpg}
+    \includegraphics[width=0.32\linewidth]{Image_15.jpg}
+    \includegraphics[width=0.32\linewidth]{Image_16.jpg}
     \caption{Penalty: (left) Hitting a tree brings 10s time penalty. (middle) Illustration from the side. (right) Touching the water does as well.}
     \label{fig:penalty}
   \end{figure}
@@ -158,7 +158,7 @@
   
     \begin{figure}[htb]
       \centering
-      \includegraphics[width=0.32\linewidth]{Image_6.jpg}
+      \includegraphics[width=0.32\linewidth]{Image_17.jpg}
       \caption{Final screen; shows the time the user needed to run through the world and the heart rate, if the hardware is available. The user is also congratulated, because he finished the workout.}
       \label{fig:end}
     \end{figure}
@@ -167,20 +167,37 @@
 
 \section{Design}
 
-  \subsection{Instantly start game}
+  \subsection{Use the complete screen space during workout} % (fold)
+  \label{sub:use_the_complete_screen_space_during_workout}
 
-    We had several iterations when to start a workout. Ideas like special locations like fitness mat turned out to be bad since the user did not understand them  when testing with a paper prototype. In the final version we chose to start the game as soon as someone starts running on the floor to provide the simplest   solution as possible.
+    A first approach to provide the workout functionality to the user was to show three fitness mats, each offering several exercises for training certain body parts: a warm-up, an ``arms training'' and a ``legs training'' mat. The idea was that using our application assures right performance of the exercises and a balanced workout by recommending a workout plan to the user. This would have been done by briefly introducing every exercise. 
 
-    During heuristic evaluation we identified that there must be a short message telling the user that he should start running, from that point on he understood  how to start a workout and make progress.
+    So the training would always start with a warm-up and then give the user the freedom to choose every following exercise. During contextual inquiry we found out that the majority of users did not get why there were three different mats for one person. Furthermore it was unnecessarily inconvenient to display workout instructions on a third of the screen, so we scraped the idea of multiple fitness mats to use the whole screen for guiding the users.
 
-  \subsection{Dictate Exercises}
+  \subsection{Motivate the user with game elements } % (fold)
+  \label{sub:motivate_the_user_with_game_elements_}
 
-    In the early designs, we decided to let users choose the exercise they want to do and guide them in their performance. Possible tasks were to train you legs  for n seconds or build up strength performing n short, but hard exercises.
+    One of the most challenging requirements when designing a fitness application is to keep up the user's motivation. When first conceiving a full screen application we tried to fulfill this with a different exercise choosing menu which should fasten the choosing process. To start training, the user had to tap one of sundry bubbles, floating around on the screen. Each contained a small illustration of an exercise combined with the designation of either a time span or repetitions. However, in our paper prototype study two out of three participants did not even know what the exercises were about, but time pressure turned out to be an actuating game concept perfectly matching our demands. From now on the passed time always would be displayed to the user during a workout. But still we had to solve the issue, that fitness exercises are not commonly known amongst the users.
 
-    Within tast analysis, we noticed that this violates the need for a short workout, because much time is spent in the menu on selecting workouts. In our paper  prototype study two out of our 3 participants did not even know what the exercises are about or what kind of training they are. Users rather wanted to be     guided and told what would be best to do.
+  \subsection{Dictate Exercises with game elements } % (fold)
+  \label{sub:dictate_exercises_with_game_elements_}
 
-    In the further process we reduced the options down to only 'warmup' or 'workout'. In the final design, we have a complete world with several workouts packed  in mini games.
+    We needed to find a way to instruct a user to perform an exercise without expecting him to know it. This means, that every exercise the user would chooses had to be explained or shown first. Within task analysis, we noticed that this violates the need for a short workout, because much time is spent on selecting and explaining workouts. So we decided to not let the user choose a preferred exercise anymore, but transfer him in a virtual environment of which the user's tasks directly come out, as shown in the walk-through. This virtual environment would be a path to run along. For instance when the user runs and a tree appears he automatically get, that he has to overcome this obstacle by jumping. This way there are even less instructions necessary and no time is spent on choosing a workout anymore. Adding these further game elements also turned out to provide more fun.
 
+  \subsection{Penalties during workout, rewards after workout} % (fold)
+  \label{sub:penalties_during_workout_rewards_after_workout}
+
+    During further progress we tested whether punishing or rewarding leads to better workout results. In a first approach the users were rewarded by time reduction for each correctly performed exercise. But as exercises like jumping over a tree are quite fast done, a first test user was rewarded more than one time a second, so that both the motivation effect was gone and the time reduction made no sense anymore. Furthermore the exercises the user has to perform are quiet simple so that a false performance is more unlikely than a correct one. And as we don't want the user to be permanently distracted by penalties or rewards, we decided to punish false performances. The motivating reward was now to finish a workout faster than before or beat a time of another user.
+
+  \subsection{Instantly start game } % (fold)
+  \label{sub:instantly_start_game_}
+
+    We had several iterations concerning when to start the game. From contextual inquiry we learned, how important a good warm-up is, which is why we kept the concept of always starting with a warm-up this far. But in the paper prototype study, the users did not get, why they were forced to do a warm-up and could not start immediately. So we left it out, as it was not necessary for this kind of game anymore. In the final version we chose to start the game as soon as someone starts running on the floor to provide the simplest solution as possible. During heuristic evaluation we identified that there must be a short message telling the user that he should start running. From that point on he understood how to start a workout and make progress.
+
+  \subsection{Use a fixed map} % (fold)
+  \label{sub:use_a_fixed_map}
+
+    One of the last design decisions we faced was whether to generate a unique map each run or use the same map every time. To vary the user's challenge varies from time to time, generating a map was the obvious approach. The problem was that the comparability of the times for a workout was not given anymore. But as we proofed the concept of motivation by time pressure earlier, we finally decided to use a fixed map, so that a user could compete with another user or himself.
 
 \section{Conclusion}
 
